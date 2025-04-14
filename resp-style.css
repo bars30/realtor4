@@ -207,7 +207,7 @@
     display: none;
 }
   h2 {
-    font-size: 18px;
+    font-size: 22px;
   }
   .toolbar button {
     display: none;
@@ -253,6 +253,9 @@
   .resp-header {
     display: block;
   }
+  .input-cont {
+    display: block;
+  }
 }
 @media only screen and (max-width: 600px){
 
@@ -275,7 +278,9 @@
 }
 
 @media only screen and (max-width: 500px){
-
+  .footer-item {
+    width: 100%;
+}
   .partners {
     width: 94%;
   }
@@ -314,8 +319,8 @@
     font-size: 12px;
   }
   h2 {
-    font-size: 15px;
-}
+    font-size: 18px;
+  }
   h3 {
     font-size: 15px;
   }
